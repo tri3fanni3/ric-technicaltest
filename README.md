@@ -26,6 +26,7 @@ You need to have [Node.js](https://nodejs.org/) and `npm` (Node Package Manager)
     ```
 
 2.  **Start the Tailwind CSS compiler:**
+
     Run the following command in your terminal. This will watch for changes in your HTML/JS files and compile the necessary CSS into a static file named `style.css`.
 
     ```sh
@@ -40,13 +41,16 @@ You need to have [Node.js](https://nodejs.org/) and `npm` (Node Package Manager)
 
 ### View Only
 
-**Open `index.html` in your browser:**
-You can open the `index.html` file directly in your web browser to see the live page.
+- **Open `index.html` in your browser:**
+
+  You can open the `index.html` file directly in your web browser to see the live page.
 
 or
 
-**Open `live preview` from Github Pages:**
+- **Open `live preview` from Github Pages:**
 
-```sh
-[https://tri3fanni3.github.io/ric-technicaltest/](https://tri3fanni3.github.io/ric-technicaltest/)
-```
+  [RIC - An Invitation to the Hidden](https://tri3fanni3.github.io/ric-technicaltest/)
+
+  ```sh
+  [https://tri3fanni3.github.io/ric-technicaltest/](https://tri3fanni3.github.io/ric-technicaltest/)
+  ```
