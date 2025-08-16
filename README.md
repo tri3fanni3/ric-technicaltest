@@ -45,12 +45,12 @@ You need to have [Node.js](https://nodejs.org/) and `npm` (Node Package Manager)
 
   You can open the `index.html` file directly in your web browser to see the live page.
 
-or
+  or
 
 - **Open `live preview` from Github Pages:**
 
-  [RIC - An Invitation to the Hidden](https://tri3fanni3.github.io/ric-technicaltest/)
+  <a href="https://tri3fanni3.github.io/ric-technicaltest/" target="_blank">RIC - An Invitation to the Hidden</a>
 
   ```sh
-  [https://tri3fanni3.github.io/ric-technicaltest/](https://tri3fanni3.github.io/ric-technicaltest/)
+  https://tri3fanni3.github.io/ric-technicaltest/
   ```
