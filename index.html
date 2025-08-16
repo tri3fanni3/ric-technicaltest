@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>An Invitation to the Hidden</title>
+    <link href="assets/css/style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/jpg" href="./assets/images/gallery2.jpg">
+</head>
+
+<body class="bg-white text-black font-sans">
+
+    <div class="container mx-auto p-4 md:p-8">
+        <header class="text-left mb-12 md:mb-16">
+            <h1 class="text-3xl md:text-5xl font-bold tracking-widest">AN INVITATION</h1>
+            <h1 class="text-3xl md:text-5xl font-bold tracking-widest">TO THE HIDDEN</h1>
+        </header>
+
+        <section class="mb-12 md:mb-20">
+            <img src="assets/images/hero-image.jpg" alt="Artistic display of leaves in a dish"
+                class="w-full md:w-3/4 lg:w-1/2 mx-auto">
+        </section>
+
+        <section class="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-4 text-xs mb-16 md:mb-24 px-4 md:px-0">
+            <div class="md:text-left">
+                <h3 class="tracking-widest">CURATED SELECTION OF</h3>
+                <p class="text-xl font-bold tracking-widest">FINE SPIRITS</p>
+            </div>
+            <div class="md:text-left">
+                <h3 class="tracking-widest">A HIDDEN GEM</h3>
+                <p class="text-xl font-bold tracking-widest">7 NIGHTS / WEEK</p>
+            </div>
+            <div class="text-left text-gray-600 leading-relaxed">
+                <p>
+                    Step into a place where time slow downs and the night feels endless. Our speakeasy offers a
+                    unique, intimate atmosphere, perfect for those seeking something more than the usual. Come for the
+                    experience, stay for the vibe.
+                </p>
+            </div>
+        </section>
+
+        <section class="text-center mb-12 md:mb-16">
+            <h2 class="text-3xl font-bold tracking-widest">BEHIND</h2>
+            <p class="font-bold text-sm tracking-wider">Closed Doors</p>
+            <p class="max-w-xl mx-auto text-xs text-gray-600 mt-4 leading-relaxed">
+                The speakeasy offers an atmosphere
+                that's both sleek and released, perfect for those who appreciate the finer things in life. Whether
+                you're here for a quiet drink or to linger into the night, every moment feels exclusive.
+            </p>
+        </section>
+
+        <section class="grid grid-cols-1 md:grid-cols-3 gap-1 mb-16 md:mb-24">
+            <img src="assets/images/gallery1.jpg" alt="Abstract dark spheres"
+                class="w-full h-full object-cover gallery-img cursor-pointer transition-transform duration-300 hover:scale-105 hover:brightness-90">
+            <img src="assets/images/gallery2.jpg" alt="Two white bottles"
+                class="w-full h-full object-cover gallery-img cursor-pointer transition-transform duration-300 hover:scale-105 hover:brightness-90">
+            <img src="assets/images/gallery3.jpg" alt="Glassware in shadow"
+                class="w-full h-full object-cover gallery-img cursor-pointer transition-transform duration-300 hover:scale-105 hover:brightness-90">
+            <img src="assets/images/gallery4.jpg" alt="Abstract dark surface"
+                class="w-full h-full object-cover gallery-img cursor-pointer transition-transform duration-300 hover:scale-105 hover:brightness-90">
+            <img src="assets/images/gallery5.jpg" alt="Neon sign saying Cocktails"
+                class="w-full h-full object-cover gallery-img cursor-pointer transition-transform duration-300 hover:scale-105 hover:brightness-90">
+            <img src="assets/images/gallery6.jpg" alt="Abstract dark rock"
+                class="w-full h-full object-cover gallery-img cursor-pointer transition-transform duration-300 hover:scale-105 hover:brightness-90">
+        </section>
+
+        <footer class="text-center">
+            <button
+                class="border border-black px-8 py-2 text-xs font-bold tracking-widest hover:bg-black hover:text-white transition-colors">CONTACT</button>
+        </footer>
+    </div>
+
+    <div id="imageModal" class="fixed inset-0 bg-black bg-opacity-80 hidden flex items-center justify-center p-4 z-50">
+        <span id="closeModal" class="absolute top-4 right-6 text-white text-4xl font-bold cursor-pointer">&times;</span>
+        <img id="modalImage" src="" alt="Full-screen view" class="max-w-full max-h-full">
+    </div>
+
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>
